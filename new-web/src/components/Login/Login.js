@@ -8,8 +8,8 @@ function Login() {
 
   const handleClick = (e) => {
     e.preventDefault(); 
-    console.log('Id', id);
-    console.log('Password', '*'.repeat(password.length)); 
+    console.log('Id: ', id);
+    console.log('Password: ', '*'.repeat(password.length)); 
   };
 
   return (
