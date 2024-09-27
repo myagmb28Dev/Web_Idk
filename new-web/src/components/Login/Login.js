@@ -8,8 +8,8 @@ function Login() {
 
   const handleClick = (e) => {
     e.preventDefault(); 
-    console.log('아이디:', id);
-    console.log('비밀번호:', '*'.repeat(password.length)); 
+    console.log('아이디', id);
+    console.log('비밀번호', '*'.repeat(password.length)); 
   };
 
   return (
